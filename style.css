@@ -109,22 +109,18 @@ h3 {
   opacity: 0.7;
 }
 
-@media (min-width: 280px) {
+@media (min-width: 280px) and (max-width: 319px) {
   .wrapper {
     width: 15rem;
   }
-  .todo {
-    font-size: 0.7rem;
-  }
 }
+
+/* @media (max-width: 320px) { */
 
 @media (min-width: 320px) and (max-width: 520px) {
   .wrapper {
     height: 60vh;
     width: 80vw;
-  }
-  .todo {
-    font-size: 1rem;
   }
 }
 
@@ -133,17 +129,11 @@ h3 {
     height: 50vh;
     width: 80vw;
   }
-  .todo {
-    font-size: 1rem;
-  }
 }
 
 @media (min-width: 768px) {
   .wrapper {
     height: 60vh;
     width: 60vw;
-  }
-  .todo {
-    font-size: 1rem;
   }
 }
