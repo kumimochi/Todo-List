@@ -1,3 +1,3 @@
 # Todo-List
 
-##A simple todo list app made in JavaScript
+A simple todo list app made in JavaScript
