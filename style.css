@@ -120,7 +120,7 @@ h3 {
 
 @media (min-width: 320px) and (max-width: 520px) {
   .wrapper {
-    height: 50vh;
+    height: 60vh;
     width: 80vw;
   }
   .todo {
