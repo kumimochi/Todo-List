@@ -28,6 +28,7 @@ h3 {
   width: 100%;
   border-radius: 2rem;
   padding: 2.5rem;
+  overflow: auto;
 }
 
 .todo-input {
@@ -112,18 +113,37 @@ h3 {
   .wrapper {
     width: 15rem;
   }
+  .todo {
+    font-size: 0.7rem;
+  }
 }
 
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 520px) {
   .wrapper {
-    height: 20rem;
-    width: 18rem;
+    height: 50vh;
+    width: 80vw;
+  }
+  .todo {
+    font-size: 0.5rem;
+  }
+}
+
+@media (min-width: 520px) and (max-width: 768px) {
+  .wrapper {
+    height: 50vh;
+    width: 80vw;
+  }
+  .todo {
+    font-size: 1rem;
   }
 }
 
 @media (min-width: 768px) {
   .wrapper {
-    height: 30rem;
-    width: 25rem;
+    height: 60vh;
+    width: 60vw;
+  }
+  .todo {
+    font-size: 1rem;
   }
 }
